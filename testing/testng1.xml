@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	 <test  name="amazon">
+		 <parameter name="browsername" value="chrome"></parameter>
+		 <parameter name="author" value="vandana"></parameter>
+        <classes>
+			<class name="testing.group"/> 
+		</classes>
+     </test>  
+    
+
+    <test  name="amazon1">
+		 <parameter name="browsername" value="chrome"></parameter>
+		 <parameter name="author" value="chandan"></parameter>
+    <classes>
+      <class name="testing.group"/>
+        
+    </classes>
+    </test>
+    </suite>
+    
+       <!-- Test -->
+ <!-- Suite -->
